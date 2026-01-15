@@ -13,8 +13,6 @@ spec:
       labels:
         app: deo-frontend
     spec:
-      imagePullSecrets:
-      - name: ghcr-login-secret
       containers:
       - name: deo-frontend
         image: ghcr.io/simon-raaber/deo-webapp-frontend:latest
