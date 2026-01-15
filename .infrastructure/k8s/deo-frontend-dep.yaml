@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: deo-frontend
-        image: ghcr.io/simon-raaber/deo-webapp-frontend:latest
+        image: ghcr.io/simon-raaber/deo-webapp-frontend:v1.5
         args: ["--urls", "http://*:2000"]
         ports:
         - containerPort: 2000
